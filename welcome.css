@@ -1,0 +1,47 @@
+span {
+    background: #fd0;
+}
+
+.nav-box {
+    border: 4px solid;
+    align-items: center;
+    justify-content: space-around;
+    display:flex;
+}
+
+.nav-content-box {
+    border: 2px solid;
+    width: 50%;
+    margin:15px;
+    padding: 10px;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic-box {
+    border: 2px solid;
+    width: 20%;
+    margin:15px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
